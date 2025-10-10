@@ -200,7 +200,9 @@ int main()
 
     deleteNode(root, 7); // delete root
     cout << "Inorder after deleting 7: ";
+    
     Inorder(root);
+
     cout << endl;
 
     return 0;

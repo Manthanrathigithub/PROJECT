@@ -47,6 +47,10 @@ void display(){
 int main()
 {
 enqueue(10);
-enqueue(20);enqueue(30);enqueue(40);enqueue(50);dequeue();
+enqueue(20);enqueue(30);enqueue(40);enqueue(50);
+printf("Elements in queue are: ");
+display(); 
+printf("Queue after dequeue is ");
+dequeue();
 display();
 }
